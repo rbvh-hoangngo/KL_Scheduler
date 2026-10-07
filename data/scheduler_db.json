@@ -447,8 +447,8 @@
       "durationMinutes": 60,
       "status": "CONFIRMED",
       "notes": "High-voltage diagnostic prior to cross-country trip.",
-      "createdAt": "2026-10-06T03:53:55.797Z",
-      "updatedAt": "2026-10-06T03:53:55.797Z",
+      "createdAt": "2026-10-06T09:29:17.151Z",
+      "updatedAt": "2026-10-06T09:29:17.151Z",
       "traceId": "trc_seed_01"
     },
     {
@@ -477,8 +477,8 @@
       "durationMinutes": 90,
       "status": "CONFIRMED",
       "notes": "Noticeable grinding noise on front passenger side.",
-      "createdAt": "2026-10-06T15:53:55.797Z",
-      "updatedAt": "2026-10-06T15:53:55.797Z",
+      "createdAt": "2026-10-06T21:29:17.151Z",
+      "updatedAt": "2026-10-06T21:29:17.151Z",
       "traceId": "trc_seed_02"
     },
     {
@@ -507,22 +507,22 @@
       "durationMinutes": 60,
       "status": "CONFIRMED",
       "notes": "Annual scheduled high-voltage health certification.",
-      "createdAt": "2026-10-07T03:53:55.798Z",
-      "updatedAt": "2026-10-07T03:53:55.798Z",
+      "createdAt": "2026-10-07T09:29:17.151Z",
+      "updatedAt": "2026-10-07T09:29:17.151Z",
       "traceId": "trc_seed_03"
     },
     {
-      "id": "apt_1791345249762_73c967",
-      "confirmationCode": "USS-3209-SEA",
+      "id": "apt_1791365357153_a65c9a",
+      "confirmationCode": "USS-4939-SEA",
       "dealershipId": "dlr_metro_central",
       "serviceTypeId": "srv_ev_battery_diag",
       "serviceBayId": "bay_sea_03",
       "technicianId": "tech_sea_01",
       "customer": {
-        "id": "cust_1791345249762",
-        "name": "Evelyn Wright",
-        "email": "evelyn@example.com",
-        "phone": "(206) 555-9011"
+        "id": "cust_1791365357153",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "(206) 555-0111"
       },
       "vehicle": {
         "vin": "5YJ3E1EB8NF129031",
@@ -530,154 +530,266 @@
         "model": "Model 3",
         "year": 2023,
         "fuelType": "EV",
-        "licensePlate": "WA-EVTEST"
+        "licensePlate": "WA-TEST01"
       },
-      "startTime": "2026-10-08T13:00:00.000Z",
-      "endTime": "2026-10-08T14:00:00.000Z",
+      "startTime": "2026-10-20T10:00:00.000Z",
+      "endTime": "2026-10-20T11:00:00.000Z",
       "durationMinutes": 60,
       "status": "CONFIRMED",
-      "notes": "Testing curl booking",
-      "createdAt": "2026-10-07T03:54:09.762Z",
-      "updatedAt": "2026-10-07T03:54:09.762Z",
-      "traceId": "trc_1791345249761_3lpk9"
+      "notes": "TC-01 Test",
+      "createdAt": "2026-10-07T09:29:17.153Z",
+      "updatedAt": "2026-10-07T09:29:17.153Z",
+      "traceId": "trc_tc01"
     },
     {
-      "id": "apt_1791345258998_a4e8c7",
-      "confirmationCode": "USS-5736-SFO",
-      "dealershipId": "dlr_bayside_ev",
+      "id": "apt_1791365357154_2a57fb",
+      "confirmationCode": "USS-4936-SEA",
+      "dealershipId": "dlr_metro_central",
       "serviceTypeId": "srv_ev_battery_diag",
-      "serviceBayId": "bay_sfo_01",
-      "technicianId": "tech_sfo_01",
+      "serviceBayId": "bay_sea_03",
+      "technicianId": "tech_sea_01",
       "customer": {
-        "id": "cust_1791345258998",
-        "name": "Alice Walker",
-        "email": "alice.walker@concurrency-test.local",
-        "phone": "(555) 010-0001"
+        "id": "cust_1791365357154",
+        "name": "First Booker",
+        "email": "first@test.com",
+        "phone": "(206) 555-1111"
+      },
+      "vehicle": {
+        "vin": "5YJ3E1EB8NF129031",
+        "make": "Tesla",
+        "model": "Model 3",
+        "year": 2023,
+        "fuelType": "EV",
+        "licensePlate": "EV-1"
+      },
+      "startTime": "2026-10-21T14:00:00.000Z",
+      "endTime": "2026-10-21T15:00:00.000Z",
+      "durationMinutes": 60,
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-07T09:29:17.154Z",
+      "updatedAt": "2026-10-07T09:29:17.154Z",
+      "traceId": "trc_tc02_1"
+    },
+    {
+      "id": "apt_1791365357157_1d41cd",
+      "confirmationCode": "USS-3317-SEA",
+      "dealershipId": "dlr_metro_central",
+      "serviceTypeId": "srv_wheel_alignment",
+      "serviceBayId": "bay_sea_04",
+      "technicianId": "tech_sea_02",
+      "customer": {
+        "id": "cust_1791365357157",
+        "name": "Cancel Candidate",
+        "email": "cancel@test.com",
+        "phone": "(206) 555-8888"
+      },
+      "vehicle": {
+        "vin": "5YJ3E1EB8NF129031",
+        "make": "Tesla",
+        "model": "Model 3",
+        "year": 2023,
+        "fuelType": "EV",
+        "licensePlate": "CAN-01"
+      },
+      "startTime": "2026-10-26T15:00:00.000Z",
+      "endTime": "2026-10-26T16:00:00.000Z",
+      "durationMinutes": 60,
+      "status": "CANCELLED",
+      "createdAt": "2026-10-07T09:29:17.157Z",
+      "updatedAt": "2026-10-07T09:29:17.158Z",
+      "traceId": "trc_tc06_book"
+    },
+    {
+      "id": "apt_1791365357158_7350e7",
+      "confirmationCode": "USS-6918-SEA",
+      "dealershipId": "dlr_metro_central",
+      "serviceTypeId": "srv_wheel_alignment",
+      "serviceBayId": "bay_sea_04",
+      "technicianId": "tech_sea_02",
+      "customer": {
+        "id": "cust_1791365357158",
+        "name": "Successor Booker",
+        "email": "next@test.com",
+        "phone": "(206) 555-9999"
+      },
+      "vehicle": {
+        "vin": "WP0AA2Y13NSA99120",
+        "make": "Porsche",
+        "model": "Taycan",
+        "year": 2024,
+        "fuelType": "EV",
+        "licensePlate": "NEXT-01"
+      },
+      "startTime": "2026-10-26T15:00:00.000Z",
+      "endTime": "2026-10-26T16:00:00.000Z",
+      "durationMinutes": 60,
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-07T09:29:17.158Z",
+      "updatedAt": "2026-10-07T09:29:17.158Z",
+      "traceId": "trc_tc06_rebook"
+    },
+    {
+      "id": "apt_1791365357159_5b7133",
+      "confirmationCode": "USS-7901-SEA",
+      "dealershipId": "dlr_metro_central",
+      "serviceTypeId": "srv_oil_change",
+      "serviceBayId": "bay_sea_01",
+      "technicianId": "tech_sea_02",
+      "customer": {
+        "id": "cust_1791365357159",
+        "name": "Oil Customer",
+        "email": "oil@test.com",
+        "phone": "(206) 555-7777"
+      },
+      "vehicle": {
+        "vin": "1FTFW1E84MKD99412",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 2022,
+        "fuelType": "ICE",
+        "licensePlate": "OIL-99"
+      },
+      "startTime": "2026-10-27T09:00:00.000Z",
+      "endTime": "2026-10-27T09:30:00.000Z",
+      "durationMinutes": 30,
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-07T09:29:17.159Z",
+      "updatedAt": "2026-10-07T09:29:17.159Z",
+      "traceId": "trc_tc07"
+    },
+    {
+      "id": "apt_1791365357160_8be9e6",
+      "confirmationCode": "USS-6621-SEA",
+      "dealershipId": "dlr_metro_central",
+      "serviceTypeId": "srv_ev_battery_diag",
+      "serviceBayId": "bay_sea_03",
+      "technicianId": "tech_sea_01",
+      "customer": {
+        "id": "cust_1791365357160",
+        "name": "Concurrent Client 1",
+        "email": "c0@test.com",
+        "phone": "(555) 000-0000"
       },
       "vehicle": {
         "vin": "5YJ3E1EB8NF100001",
         "make": "Tesla",
-        "model": "Model Y",
-        "year": 2024,
+        "model": "Model 3",
+        "year": 2023,
         "fuelType": "EV",
-        "licensePlate": "TEST-EV-1"
+        "licensePlate": "CON-1"
       },
-      "startTime": "2026-10-15T14:00:00.000Z",
-      "endTime": "2026-10-15T15:00:00.000Z",
+      "startTime": "2026-10-28T14:00:00.000Z",
+      "endTime": "2026-10-28T15:00:00.000Z",
       "durationMinutes": 60,
       "status": "CONFIRMED",
-      "notes": "Simulated concurrent race test #REQ-1",
-      "createdAt": "2026-10-07T03:54:18.998Z",
-      "updatedAt": "2026-10-07T03:54:18.998Z",
-      "traceId": "trc_1791345258997_q8alu_req_1"
-    },
-    {
-      "id": "apt_1791345258999_eb0ac3",
-      "confirmationCode": "USS-6041-SFO",
-      "dealershipId": "dlr_bayside_ev",
-      "serviceTypeId": "srv_ev_battery_diag",
-      "serviceBayId": "bay_sfo_02",
-      "technicianId": "tech_sfo_02",
-      "customer": {
-        "id": "cust_1791345258999",
-        "name": "Bob Sterling",
-        "email": "bob.sterling@concurrency-test.local",
-        "phone": "(555) 010-0002"
-      },
-      "vehicle": {
-        "vin": "5YJ3E1EB8NF100002",
-        "make": "Tesla",
-        "model": "Model Y",
-        "year": 2024,
-        "fuelType": "EV",
-        "licensePlate": "TEST-EV-2"
-      },
-      "startTime": "2026-10-15T14:00:00.000Z",
-      "endTime": "2026-10-15T15:00:00.000Z",
-      "durationMinutes": 60,
-      "status": "CONFIRMED",
-      "notes": "Simulated concurrent race test #REQ-2",
-      "createdAt": "2026-10-07T03:54:18.999Z",
-      "updatedAt": "2026-10-07T03:54:18.999Z",
-      "traceId": "trc_1791345258997_q8alu_req_2"
+      "createdAt": "2026-10-07T09:29:17.160Z",
+      "updatedAt": "2026-10-07T09:29:17.160Z",
+      "traceId": "trc_tc08_0"
     }
   ],
   "auditLogs": [
     {
-      "id": "log_1791345259000",
-      "timestamp": "2026-10-07T03:54:19.000Z",
-      "traceId": "trc_1791345258997_q8alu_req_5",
-      "event": "BOOKING_CONFLICT",
-      "dealershipId": "dlr_bayside_ev",
-      "details": "Service Bay constraint violation: No active bay with capability 'EV_CERTIFIED' available for slot 2026-10-15T14:00:00.000Z. Active bays examined: 2.",
-      "durationMs": 0
-    },
-    {
-      "id": "log_1791345259000",
-      "timestamp": "2026-10-07T03:54:19.000Z",
-      "traceId": "trc_1791345258997_q8alu_req_4",
-      "event": "BOOKING_CONFLICT",
-      "dealershipId": "dlr_bayside_ev",
-      "details": "Service Bay constraint violation: No active bay with capability 'EV_CERTIFIED' available for slot 2026-10-15T14:00:00.000Z. Active bays examined: 2.",
-      "durationMs": 0
-    },
-    {
-      "id": "log_1791345258999",
-      "timestamp": "2026-10-07T03:54:18.999Z",
-      "traceId": "trc_1791345258997_q8alu_req_3",
-      "event": "BOOKING_CONFLICT",
-      "dealershipId": "dlr_bayside_ev",
-      "details": "Service Bay constraint violation: No active bay with capability 'EV_CERTIFIED' available for slot 2026-10-15T14:00:00.000Z. Active bays examined: 2.",
-      "durationMs": 0
-    },
-    {
-      "id": "log_1791345258999",
-      "timestamp": "2026-10-07T03:54:18.999Z",
-      "traceId": "trc_1791345258997_q8alu_req_2",
-      "event": "BOOKING_SUCCESS",
-      "dealershipId": "dlr_bayside_ev",
-      "details": "Confirmed appointment USS-6041-SFO for Bob Sterling (2024 Tesla Model Y). Assigned EV Diagnostic Bay Beta & Technician Clara Oswald.",
-      "durationMs": 0
-    },
-    {
-      "id": "log_1791345258998",
-      "timestamp": "2026-10-07T03:54:18.998Z",
-      "traceId": "trc_1791345258997_q8alu_req_1",
-      "event": "BOOKING_SUCCESS",
-      "dealershipId": "dlr_bayside_ev",
-      "details": "Confirmed appointment USS-5736-SFO for Alice Walker (2024 Tesla Model Y). Assigned EV Diagnostic Bay Alpha & Technician Aiden Patel.",
-      "durationMs": 0
-    },
-    {
-      "id": "log_1791345255006",
-      "timestamp": "2026-10-07T03:54:15.006Z",
-      "traceId": "trc_1791345255006_at86t",
+      "id": "log_1791365357163",
+      "timestamp": "2026-10-07T09:29:17.163Z",
+      "traceId": "trc_tc08_4",
       "event": "BOOKING_CONFLICT",
       "dealershipId": "dlr_metro_central",
-      "details": "Service Bay constraint violation: No active bay with capability 'EV_CERTIFIED' available for slot 2026-10-08T13:00:00.000Z. Active bays examined: 1.",
+      "details": "Service Bay constraint violation: No active bay with capability 'EV_CERTIFIED' available for slot 2026-10-28T14:00:00.000Z. Active bays examined: 1.",
+      "durationMs": 0
+    },
+    {
+      "id": "log_1791365357162",
+      "timestamp": "2026-10-07T09:29:17.162Z",
+      "traceId": "trc_tc08_3",
+      "event": "BOOKING_CONFLICT",
+      "dealershipId": "dlr_metro_central",
+      "details": "Service Bay constraint violation: No active bay with capability 'EV_CERTIFIED' available for slot 2026-10-28T14:00:00.000Z. Active bays examined: 1.",
+      "durationMs": 0
+    },
+    {
+      "id": "log_1791365357162",
+      "timestamp": "2026-10-07T09:29:17.162Z",
+      "traceId": "trc_tc08_2",
+      "event": "BOOKING_CONFLICT",
+      "dealershipId": "dlr_metro_central",
+      "details": "Service Bay constraint violation: No active bay with capability 'EV_CERTIFIED' available for slot 2026-10-28T14:00:00.000Z. Active bays examined: 1.",
+      "durationMs": 0
+    },
+    {
+      "id": "log_1791365357161",
+      "timestamp": "2026-10-07T09:29:17.161Z",
+      "traceId": "trc_tc08_1",
+      "event": "BOOKING_CONFLICT",
+      "dealershipId": "dlr_metro_central",
+      "details": "Service Bay constraint violation: No active bay with capability 'EV_CERTIFIED' available for slot 2026-10-28T14:00:00.000Z. Active bays examined: 1.",
+      "durationMs": 0
+    },
+    {
+      "id": "log_1791365357160",
+      "timestamp": "2026-10-07T09:29:17.160Z",
+      "traceId": "trc_tc08_0",
+      "event": "BOOKING_SUCCESS",
+      "dealershipId": "dlr_metro_central",
+      "details": "Confirmed appointment USS-6621-SEA for Concurrent Client 1 (2023 Tesla Model 3). Assigned EV High-Voltage Certified Bay & Technician Marcus Vance.",
+      "durationMs": 0
+    },
+    {
+      "id": "log_1791365357159",
+      "timestamp": "2026-10-07T09:29:17.159Z",
+      "traceId": "trc_tc07",
+      "event": "BOOKING_SUCCESS",
+      "dealershipId": "dlr_metro_central",
+      "details": "Confirmed appointment USS-7901-SEA for Oil Customer (2022 Ford F-150). Assigned Quick Lube Pit 1 & Technician Elena Rostova.",
+      "durationMs": 0
+    },
+    {
+      "id": "log_1791365357159",
+      "timestamp": "2026-10-07T09:29:17.159Z",
+      "traceId": "trc_tc06_rebook",
+      "event": "BOOKING_SUCCESS",
+      "dealershipId": "dlr_metro_central",
+      "details": "Confirmed appointment USS-6918-SEA for Successor Booker (2024 Porsche Taycan). Assigned Hunter Laser Alignment Bay & Technician Elena Rostova.",
       "durationMs": 1
     },
     {
-      "id": "log_1791345249763",
-      "timestamp": "2026-10-07T03:54:09.763Z",
-      "traceId": "trc_1791345249761_3lpk9",
+      "id": "log_1791365357158",
+      "timestamp": "2026-10-07T09:29:17.158Z",
+      "traceId": "trc_tc06_book",
       "event": "BOOKING_SUCCESS",
       "dealershipId": "dlr_metro_central",
-      "details": "Confirmed appointment USS-3209-SEA for Evelyn Wright (2023 Tesla Model 3). Assigned EV High-Voltage Certified Bay & Technician Marcus Vance.",
+      "details": "Confirmed appointment USS-3317-SEA for Cancel Candidate (2023 Tesla Model 3). Assigned Hunter Laser Alignment Bay & Technician Elena Rostova.",
       "durationMs": 1
     },
     {
-      "id": "log_1791345243530",
-      "timestamp": "2026-10-07T03:54:03.530Z",
-      "traceId": "trc_1791345243528_616nl",
-      "event": "AVAILABILITY_CHECK",
+      "id": "log_1791365357155",
+      "timestamp": "2026-10-07T09:29:17.155Z",
+      "traceId": "trc_tc02_2",
+      "event": "BOOKING_CONFLICT",
       "dealershipId": "dlr_metro_central",
-      "details": "Checked availability for service 'srv_ev_battery_diag' on date 2026-10-08. Found 17 of 19 slots free.",
-      "durationMs": 2
+      "details": "Service Bay constraint violation: No active bay with capability 'EV_CERTIFIED' available for slot 2026-10-21T14:00:00.000Z. Active bays examined: 1.",
+      "durationMs": 1
+    },
+    {
+      "id": "log_1791365357154",
+      "timestamp": "2026-10-07T09:29:17.154Z",
+      "traceId": "trc_tc02_1",
+      "event": "BOOKING_SUCCESS",
+      "dealershipId": "dlr_metro_central",
+      "details": "Confirmed appointment USS-4936-SEA for First Booker (2023 Tesla Model 3). Assigned EV High-Voltage Certified Bay & Technician Marcus Vance.",
+      "durationMs": 0
+    },
+    {
+      "id": "log_1791365357153",
+      "timestamp": "2026-10-07T09:29:17.153Z",
+      "traceId": "trc_tc01",
+      "event": "BOOKING_SUCCESS",
+      "dealershipId": "dlr_metro_central",
+      "details": "Confirmed appointment USS-4939-SEA for Jane Doe (2023 Tesla Model 3). Assigned EV High-Voltage Certified Bay & Technician Marcus Vance.",
+      "durationMs": 1
     },
     {
       "id": "log_seed_1",
-      "timestamp": "2026-10-07T02:53:55.797Z",
+      "timestamp": "2026-10-07T08:29:17.151Z",
       "traceId": "trc_seed_init",
       "event": "BOOKING_SUCCESS",
       "dealershipId": "dlr_metro_central",
@@ -686,10 +798,10 @@
     }
   ],
   "metrics": {
-    "totalRequests": 149,
-    "successfulBookings": 6,
-    "conflictsRejected": 22,
-    "cancellations": 2,
+    "totalRequests": 153,
+    "successfulBookings": 9,
+    "conflictsRejected": 23,
+    "cancellations": 3,
     "latenciesMs": [
       14,
       18,
@@ -701,6 +813,10 @@
       16,
       21,
       17,
+      1,
+      0,
+      1,
+      1,
       1,
       0,
       0,

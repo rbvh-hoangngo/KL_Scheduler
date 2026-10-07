@@ -1,7 +1,7 @@
 import React from 'react';
-import { Calendar, Cpu, Layers, Terminal, Activity, RotateCcw, Wrench } from 'lucide-react';
+import { Calendar, Cpu, Layers, Terminal, Activity, RotateCcw, Wrench, CheckCircle2 } from 'lucide-react';
 
-export type ActiveTab = 'booking' | 'resources' | 'ledger' | 'system-design' | 'api-sandbox' | 'harness';
+export type ActiveTab = 'booking' | 'resources' | 'ledger' | 'system-design' | 'api-sandbox' | 'harness' | 'test-suite';
 
 interface HeaderProps {
   activeTab: ActiveTab;
@@ -105,7 +105,19 @@ export const Header: React.FC<HeaderProps> = ({
             }`}
           >
             <RotateCcw className="w-3.5 h-3.5" />
-            Test Harness & Telemetry
+            Race Harness
+          </button>
+
+          <button
+            onClick={() => onSelectTab('test-suite')}
+            className={`px-3 py-1.5 text-xs font-medium rounded-md transition-colors whitespace-nowrap flex items-center gap-2 ${
+              activeTab === 'test-suite'
+                ? 'bg-emerald-600 text-white shadow-sm'
+                : 'text-slate-300 hover:text-white hover:bg-slate-800/60'
+            }`}
+          >
+            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+            Test Suite Studio
           </button>
         </nav>
 

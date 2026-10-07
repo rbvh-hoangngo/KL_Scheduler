@@ -6,6 +6,7 @@ import { AppointmentsLedger } from './components/AppointmentsLedger.js';
 import { SystemDesignView } from './components/SystemDesignView.js';
 import { ApiSandbox } from './components/ApiSandbox.js';
 import { TestHarnessView } from './components/TestHarnessView.js';
+import { TestSuiteView } from './components/TestSuiteView.js';
 import { Dealership, ServiceType, AppointmentDetailResponse } from './shared/types.js';
 
 export default function App() {
@@ -101,6 +102,8 @@ export default function App() {
         {activeTab === 'api-sandbox' && <ApiSandbox />}
 
         {activeTab === 'harness' && <TestHarnessView />}
+
+        {activeTab === 'test-suite' && <TestSuiteView />}
       </main>
 
       {/* Footer */}

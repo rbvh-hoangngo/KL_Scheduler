@@ -3,6 +3,7 @@ import { db } from './storage.js';
 import { schedulerEngine } from './schedulerEngine.js';
 import { SYSTEM_DESIGN_MARKDOWN } from './systemDesignDoc.js';
 import { OPENAPI_SPEC } from './openApiSpec.js';
+import { testSuite } from './testSuite.js';
 import { CreateAppointmentRequest } from '../shared/types.js';
 
 export const apiRouter = Router();
@@ -282,4 +283,14 @@ apiRouter.post('/test-harness/run-concurrency-test', async (req: Request, res: R
 apiRouter.post('/seed/reset', (_req: Request, res: Response) => {
   db.resetToDefault();
   res.json({ status: 'ok', message: 'Database reset to baseline state.' });
+});
+
+// Full automated test suite execution endpoint
+apiRouter.post('/test-suite/run', async (_req: Request, res: Response) => {
+  try {
+    const report = await testSuite.runAllTests();
+    res.json(report);
+  } catch (err: any) {
+    res.status(500).json({ error: 'TEST_SUITE_EXECUTION_FAILED', message: err.message });
+  }
 });
