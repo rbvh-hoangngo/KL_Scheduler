@@ -1,0 +1,6 @@
+{
+  "name": "The Unified Service Scheduler",
+  "description": "Resource-constrained vehicle service appointment booking system with real-time bay and certified technician allocation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
